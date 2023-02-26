@@ -1,0 +1,80 @@
+.UserVideoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.UserVideoContainer:hover .VideoOptionsDiv, .PartnerVideoOptionsDiv {
+  display: flex;
+}
+.UserVideoDiv {
+  width: 450px;
+  height: 450px;
+  position: relative;
+}
+.UserVideo {
+  width: 300px;
+  height: 200px;
+  background: #454f56;
+  border-radius: 6px;
+}
+.ParticipantsVideoDiv {
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(239, 160, 13);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: white;
+}
+.VideoMutedDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.ActionIconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.ActionIcon {
+  cursor: pointer;
+  color: #4c82af;
+}
+.ActionCallIcon {
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+}
+.VideoOptionsDiv, .PartnerVideoOptionsDiv {
+  display: none;
+  position: absolute;
+  width: 200px;
+  justify-content: space-between;
+  top: 46%;
+}
+.VideoMutedDiv {
+  color: #fff;
+}
+.DisplayNone {
+  display: none;
+}

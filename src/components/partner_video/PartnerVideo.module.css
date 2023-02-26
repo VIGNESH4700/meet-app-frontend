@@ -1,0 +1,52 @@
+.ParticipantsVideo {
+  width: 300px;
+  height: 200px;
+  background: #454f56;
+  border-radius: 6px;
+}
+.ParticipantsVideoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.ParticipantsVideoContainer:hover .PartnerVideoOptionsDiv {
+  display: flex;
+}
+
+.ActionIconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 16px;
+}
+.PartnerVideoOptionsDiv {
+  display: none;
+  position: absolute;
+  width: 200px;
+  justify-content: center;
+  top: 40%;
+}
+
+.avatar {
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(239, 160, 13);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: white;
+}
+.DisplayNone {
+  display: none;
+}

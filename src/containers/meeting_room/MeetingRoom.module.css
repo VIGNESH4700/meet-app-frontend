@@ -1,0 +1,10 @@
+.MeetingRoomContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background: url("https://www.ncsc.gov.uk/images/Hybrid-working-video-conference.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+}
