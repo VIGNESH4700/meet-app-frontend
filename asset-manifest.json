@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/meet-app-frontend/static/css/main.a5615371.css",
-    "main.js": "/meet-app-frontend/static/js/main.3841911f.js",
-    "static/js/787.78696b9d.chunk.js": "/meet-app-frontend/static/js/787.78696b9d.chunk.js",
-    "static/media/two-person.png": "/meet-app-frontend/static/media/two-person.0a980a86edc2930a084c.png",
-    "static/media/logo.jpg": "/meet-app-frontend/static/media/logo.a48dc2ba95ed7eb588ad.jpg",
-    "index.html": "/meet-app-frontend/index.html",
-    "main.a5615371.css.map": "/meet-app-frontend/static/css/main.a5615371.css.map",
-    "main.3841911f.js.map": "/meet-app-frontend/static/js/main.3841911f.js.map",
-    "787.78696b9d.chunk.js.map": "/meet-app-frontend/static/js/787.78696b9d.chunk.js.map"
+    "main.css": "/static/css/main.a5615371.css",
+    "main.js": "/static/js/main.2f6b2940.js",
+    "static/js/787.78696b9d.chunk.js": "/static/js/787.78696b9d.chunk.js",
+    "static/media/two-person.png": "/static/media/two-person.0a980a86edc2930a084c.png",
+    "static/media/logo.jpg": "/static/media/logo.a48dc2ba95ed7eb588ad.jpg",
+    "index.html": "/index.html",
+    "main.a5615371.css.map": "/static/css/main.a5615371.css.map",
+    "main.2f6b2940.js.map": "/static/js/main.2f6b2940.js.map",
+    "787.78696b9d.chunk.js.map": "/static/js/787.78696b9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5615371.css",
-    "static/js/main.3841911f.js"
+    "static/js/main.2f6b2940.js"
   ]
 }
